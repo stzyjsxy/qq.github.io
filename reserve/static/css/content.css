@@ -1,0 +1,569 @@
+/*要闻*/
+.content {
+	margin:58px 0 0 18%;
+	padding:16px 32px 32px 32px;
+	display:flex;width:75%;
+	border:0px solid red;
+	background-color: #fafafa;
+	float:left;
+}
+.content-centre {
+	width:618px;
+	border:0px solid blue;
+	float:left
+}
+.top-news-title {
+	margin-top:28.8px;
+	width:618px;
+	height:27px;
+	border:0px solid blue;
+}
+.top-news-title div:first-child {
+	width:516px;
+	height:27px;
+	border:0px solid red;
+	float:left;
+}
+.top-news-title div:last-child {
+	width: 98px;
+	height:18px;
+	margin-top:8px;
+	float:left;
+	border:0px solid blue;
+	font-size: 14px;
+}
+/*第一块新闻*/
+.frst-news {
+	margin-top:60px;
+	width:618px;
+	height:435px;
+	border-top:1px solid #dadce0;
+}
+
+.news-bigtitle {
+	width:616px;
+	height:54px;
+	border:0px solid blue;
+	float:left;
+	font-size: 14px;
+	l-ine-height: 21px;
+
+}
+.news-bigtitle a:hover{
+	color:red;
+}
+.tiyu_list li a:hover{
+	color:red;
+}
+.yule_list li a:hover{
+	color:red;
+}
+.caijing_list li a:hover{
+	color:red;
+}
+.news-bigtitle ul:first-child {
+	padding:0;
+	margin:0;
+	list-style-type:none;
+	float:left;
+	font-size: 14px;
+	l-ine-height: 21px;
+	wi-dth:380px;
+	height:49px;
+}
+.keji_title1 {
+	border-top:2px solid red;
+	float:left;
+	width:100px;
+	height:45px;
+	font-size: 24px;
+	line-height: 43px;
+	text-align: left;
+}
+.keji_title1 a {
+	border:0px solid blue;
+	float:right;
+	text-decoration:none;
+	color:black;
+}
+.keji_title2 {
+	b-order-top:2px solid blue;
+	float:left;
+	width:100px;
+	height:49px;
+	font-size: 24px;
+	line-height: 49px;
+	text-align: center;
+}
+.keji_title2 a {
+		border:0px solid blue;
+		font-size: 18px;
+		text-decoration:none;
+		color:black;
+}
+.news-bigtitle ul:last-child {
+	padding:0;
+	margin:0;
+	list-style-type:none;
+	float:right;
+	f1ont-size: 8px;
+	l-ine-height: 21px;
+	wi-dth:380px;
+	height:49px;
+}
+.news-bigtitle ul:last-child li {
+	b1order-top:2px solid blue;
+	float:left;
+	width:50px;
+	height:49px;
+	font-size: 14px;
+	line-height: 49px;
+	text-align: center;
+}
+.news-bigtitle ul:last-child a {
+	border:0px solid blue;
+	font-size: 14px;
+	text-decoration:none;
+	color:#6B6B6B;
+}
+
+/*第2块新闻*/
+.second-news {
+	margin-top:70px;
+	width:618px;
+	height:435px;
+	border-top:1px solid #dadce0;
+}
+.tiyu_list {
+	width:616px;
+	height:54px;
+	border:0px solid blue;
+	float:left;
+	font-size: 14px;
+}
+.tiyu_list ul:first-child {
+	padding:0;
+	margin:0;
+	list-style-type:none;
+	float:left;
+	font-size: 14px;
+	l-ine-height: 21px;
+	wi-dth:380px;height:49px;
+}
+.tiyu_list ul:last-child {
+	padding:0;
+	margin:0;
+	list-style-type:none;
+	float:right;
+	f1ont-size: 8px;
+	l-ine-height: 21px;
+	wi-dth:380px;
+	height:49px;
+}
+.tiyu_title1 {
+	border-top:2px solid red;
+	float:left;
+	width:100px;
+	height:45px;
+	font-size: 24px;
+	line-height: 43px;
+	text-align: left;
+}
+.tiyu_title1 a {
+	border:0px solid blue;
+	float:right;
+	text-decoration:none;
+	color:black;
+}
+.tiyu_title2 {
+	bo-rder-top:0px solid blue;
+	float:left;
+	width:140px;
+	height:49px;font-size: 24px;
+	line-height: 49px;
+	text-align: center;
+}
+.tiyu_title2 a:first-child {
+	border:0px solid blue;
+	font-size: 18px;
+	text-decoration:none;
+	color:black;
+} 
+.tiyu_title2 a:last-child {
+	border:0px solid blue;
+	font-size: 18px;
+	margin:-9px;
+	text-decoration:none;
+	color:black;
+} 
+.tiyu_title3 {
+	bo-rder-top:0px solid red;
+	float:right;
+	width:140px;
+	height:49px;font-size: 24px;
+	line-height: 45px;
+	text-align:center;
+}
+.tiyu_title3 a:first-child {
+	border:0px solid blue;
+	font-size: 18px;
+	text-decoration:none;
+	color:black;
+}
+.tiyu_title3 a:last-child {
+	border:0px solid blue;
+	font-size: 18px;
+	margin:-9px;
+	text-decoration:none;
+	color:black;
+}
+.second-news-main {
+	width:616px;
+	border:0px solid black;
+	float:left;
+}
+/*第三块新闻*/
+.third-news {
+	margin-top:70px;
+	width:618px;
+	height:435px;
+	border-top:1px solid #dadce0;
+}
+.yule_list {
+	width:616px;
+	height:54px;
+	border:0px solid blue;
+	float:left;
+	font-size: 14px;
+	l-ine-height: 21px;
+}
+.yule_list ul:first-child{
+	padding:0;
+	margin:0;
+	list-style-type:none;
+	float:left;
+	font-size: 14px;
+	l-ine-height: 21px;
+	wi-dth:380px;
+	height:49px;
+}
+
+.yule_title1 {
+	border-top:2px solid red;
+	float:left;
+	width:100px;
+	height:45px;
+	font-size: 24px;
+	line-height: 43px;
+	text-align: left;
+}
+.yule_title1 a {
+	border:0px solid blue;
+	float:right;
+	text-decoration:none;
+	color:black;
+}
+.yule_title2 {
+	b-order-top:0px solid blue;
+	float:left;
+	width:140px;
+	height:49px;
+	font-size: 24px;
+	line-height: 49px;
+	text-align: center;
+}
+.yule_title2 a:first-child {
+	border:0px solid blue;
+	font-size: 18px;
+	text-decoration:none;
+	color:black;
+}
+.yule_title2 a:last-child {
+	border:0px solid blue;
+	font-size: 18px;
+	margin:-9px;
+	text-decoration:none;
+	color:black;
+}
+.yule_list ul:last-child{
+	padding:0;margin:0;
+	list-style-type:none;
+	float:right;
+	f1ont-size: 8px;
+	l-ine-height: 21px;
+	wi-dth:380px;
+	height:49px;
+}
+.yule_list ul:last-child li:first-child{
+	b1order-top:2px solid blue;
+	float:left;
+	width:70px;height:49px;
+	font-size: 14px;
+	line-height: 49px;
+	text-align: center;
+}
+.yule_list ul:last-child li:first-child a {
+	border:0px solid blue;font-size: 14px;text-decoration:none;color:#6B6B6B;
+}
+.yule_list ul:last-child li:last-child{
+	b1order-top:2px solid blue;
+	float:left;
+	width:70px;
+	height:49px;
+	font-size: 14px;
+	line-height: 49px;
+	text-align: center;
+}
+.yule_list ul:last-child li:last-child a {
+	border:0px solid blue;
+	font-size: 14px;
+	text-decoration:none;
+	color:#6B6B6B;
+}
+/*<!--第4块新闻--财经-->*/
+.fourth-news {
+	margin:70px 0 170px 0;
+	width:618px;
+	height:435px;
+	border-top:1px solid #dadce0;
+}
+.caijing_list {
+	width:616px;
+	height:54px;
+	border:0px solid blue;
+	float:left;
+	font-size: 14px;
+	l-ine-height: 21px;
+}
+.caijing_list ul:first-child {
+	padding:0;
+	margin:0;
+	list-style-type:none;
+	float:left;
+	font-size: 14px;
+	l-ine-height: 21px;
+	wi-dth:380px;
+	height:49px;
+}
+.caijing_title1 {
+	border-top:2px solid red;
+	float:left;
+	width:100px;
+	height:45px;
+	font-size: 24px;
+	line-height: 43px;
+	text-align: left;
+}
+.caijing_title1 a {
+	border:0px solid blue;
+	float:right;
+	text-decoration:none;
+	color:black;
+}
+.caijing_title2 {
+	b-order-top:2px solid blue;
+	float:left;
+	width:100px;
+	height:49px;
+	font-size: 24px;
+	line-height: 49px;
+	text-align: center;
+}
+.caijing_title2 a,
+.caijing_title3 a {
+	border:0px solid blue;
+	font-size: 18px;
+	text-decoration:none;
+	color:black;
+}
+.caijing_title3 {
+	b-order-top:2px solid red;
+	float:right;
+	width:100px;
+	height:49px;
+	font-size: 24px;
+	line-height: 45px;
+	text-align:center;
+}
+.caijing_list ul:last-child {
+	padding:0;margin:0;
+	list-style-type:none;
+	float:right;
+	f1ont-size: 8px;
+	l-ine-height: 21px;
+	wi-dth:380px;
+	height:49px;
+}
+.caijing_list ul:last-child li {
+	b1order-top:2px solid blue;
+	float:left;
+	width:50px;
+	height:49px;
+	font-size: 14px;
+	line-height: 49px;
+	text-align: center;
+}
+.caijing_list ul:last-child li a{
+	border:0px solid blue;
+	font-size: 14px;
+	text-decoration:none;
+	color:#6B6B6B;
+}
+/*新闻模块的主要内容*/
+.news-main-content {
+	width:616px;
+	border:0px solid black;
+	float:left;
+}
+.news-main-content-left {
+	border:0px solid red;
+	width:200px;
+	height:376px;
+	float:left
+}
+.news-main-content-left div:first-child {
+	border:0px solid red;
+	width:200px;
+	height:186px
+}
+.news-main-content-left div:last-child {
+	border:0px solid red;
+	width:200px;
+	height:190px
+}
+.news-main-content-left a {
+	border:0px solid blue;
+}
+.news-main-content-left h3 {
+	margin-top:9px;
+	width:200px;
+	border:0px solid red;
+	font-size:14px;
+}
+
+
+.news-main-content-center {
+	width:412px;
+	height:386px;
+	border:0px solid red;
+	float:right
+}
+.keji_connect1,
+.tiyu_connect1 {
+	display:block;
+	margin-top:-9px;
+	border:0px solid red;
+	width:390px;
+	height:395px;
+}
+.keji_connect2,
+.tiyu_connect2,
+.tiyu_connect3,
+.tiyu_connect4,
+.tiyu_connect5,
+.yule_connect2,
+.caijing_connect2,
+.caijing_connect3 {
+	display:none;
+	margin-top:-9px;
+	border:0px solid red;
+	width:390px;
+	height:395px;
+}
+
+.news-main-content-center ul {
+	width:410px;height:386px;
+}
+.news-main-content-center ul li a:hover {
+	color:red;
+}
+
+.news-main-content-center li:first-child {
+	color:#404040;
+	font-size:17px;
+	font-weight:300;
+	line-height:32px
+}
+.news-main-content-center li:nth-child(2),
+.news-main-content-center li:nth-child(4),
+.news-main-content-center li:nth-child(5) {
+	color:#404040;
+	font-size:16px;
+	line-height:32px;
+}
+.news-main-content-center li:nth-child(7) {
+	margin-top:16px;
+	color:#404040;
+	font-size:17px;
+	font-weight:300;
+	line-height:32px;
+}
+.news-main-content-center li:nth-child(1) a,
+.news-main-content-center li:nth-child(7) a {
+	color:black;
+	text-decoration:none;
+}
+.news-main-content-center li:nth-child(2) a,
+.news-main-content-center li:nth-child(3) a,
+.news-main-content-center li:nth-child(4) a,
+.news-main-content-center li:nth-child(5) a,
+.news-main-content-center li:nth-child(6) a,
+.news-main-content-center li:nth-child(8) a,
+.news-main-content-center li:nth-child(9) a,
+.news-main-content-center li:nth-child(10) a,
+.news-main-content-center li:nth-child(11) a,
+.news-main-content-center li:nth-child(12) a {
+	color:#404040;
+	text-decoration:none;
+}
+
+
+
+
+
+/*新闻热点*/
+.content-right {
+	background-color:#f3f3f3;
+	float:right;
+	margin:63px 0 0 60px;
+	border:0px solid black;
+	border-radius:8px;
+	width:292px;
+	height:304px
+}
+.content-right-title {
+	float:left;
+	border-bottom:1px solid #dcdcdc;
+	width:260px;
+	height:48px;
+	margin:0 16px 0 16px;
+	padding-top:2.8px;
+}
+.content-right-title >div{
+	float:left;
+	margin-top:13px;
+	border:0px solid black;
+	width:260px;
+	height:22px
+}
+.content-right-title >div >div{
+	float:left;
+	border:0px solid blue
+}
+.content-right-content {
+	float:left;width:276px;
+	height:222px;
+	border:0px solid black;
+	margin:16px 0 8px 16px;
+}
+.content-right-content >div {
+	padding:0px 6px 0px 6px;
+	text-align:center;
+	background-color:white;
+	float:left;
+	margin:0 8px 8px 0;
+	border-radius:9.6px;
+	border:1px solid #dcdcdc;
+	height:36px;
+	line-height:36px
+}

@@ -1,0 +1,204 @@
+<!DOCTYPE >
+<html lang="en">
+<head>
+	<meta content="text/html;charset=UTF-8">
+	<title>七七新闻用户注册</title>
+	<link rel="icon" href="../static/img/Spider.ico" type="image/x-icon" />
+	<link rel="stylesheet" type="text/css" href="/static/css/reset.css">
+	<link rel="stylesheet" type="text/css" href="/static/css/main.css">
+	<script type="text/javascript" src="/static/js/jquery-1.12.4.min.js"></script>
+	<script type="text/javascript" src="/static/js/register.js"></script>
+</head>
+<script language="javascript" type="text/javascript">
+
+function showdiv() {
+            document.getElementById("bg").style.display ="block";
+            document.getElementById("show").style.display ="block";
+        }
+function hidediv() {
+            document.getElementById("bg").style.display ='none';
+            document.getElementById("show").style.display ='none';
+        }
+
+
+</script>
+<style type="text/css">
+        #bg{ display: none;
+			position: absolute;
+			top: 0%;
+			left: 0%;
+			width: 100%;
+			height: 110%;
+			background-color: black;
+			z-index:1001;
+			-moz-opacity: 0.7;
+			opacity:.70;
+			filter: alpha(opacity=70);
+		}
+        #show{display: none;
+			position: absolute;
+			top: 25%;
+			left: 22%;
+			width: 53%;
+			height: 49%;
+			padding: 8px;
+			border: 8px solid #E8E9F7;
+			background-color: white;
+			z-index:1002;
+			overflow: auto;}
+
+		#show:hover{
+			overflow-y: scroll;
+		}
+
+		#show::-webkit-scrollbar {/*滚动条*/
+			width: 12px;     /*滚动条的宽，瘦胖设置这里*/
+			/*height: 1px;*/
+		}
+		#show::-webkit-scrollbar-thumb {/*滚动条立体感*/
+			/*border-radius: 0px;*/
+			 /*-webkit-box-shadow: inset 0 0 5px rgba(0,0,0,0.2);*/
+			background: #dcdcdc;
+
+		}
+		#show::-webkit-scrollbar-track {/*滚动条里面轨道*/
+			/*-webkit-box-shadow: inset 0 0 5px rgba(0,0,0,0.2);*/
+			border-radius: 0px;
+			background: #EDEDED;
+		}
+
+
+</style>
+<body>
+	<div class="register_con">
+		<div class="l_con fl">
+			<a class="reg_logo"><img src="/static/img/logo.png" width="200px" height="50px"></a>
+			<div class="reg_slogan">Python在手  ·  数据我有</div>
+			<div class="reg_banner"></div>
+		</div>
+
+		<div class="r_con fr">
+			<div class="reg_title clearfix">
+				<h1>用户注册</h1>
+				<a href="/account/login">登录</a>
+			</div>
+			<div class="reg_form clearfix">
+				<form method="post" action="/account/register">
+					{% csrf_token %}
+				<ul>
+					<li>
+						<label>用户名:</label>
+						<input type="text" name="user_name" id="user_name">
+						<span class="error_tip">提示信息</span>
+					</li>
+					<li>
+						<label>密码:</label>
+						<input type="password" name="pwd" id="pwd">
+						<span class="error_tip">提示信息</span>
+					</li>
+					<li>
+						<label>确认密码:</label>
+						<input type="password" name="cpwd" id="cpwd">
+						<span class="error_tip">提示信息</span>
+					</li>
+					<li>
+						<label>邮箱:</label>
+						<input type="text" name="email" id="email">
+						<span class="error_tip">提示信息</span>
+					</li>
+					<li class="agreement">
+						<input type="checkbox" name="allow" id="allow" checked="checked">
+						<label>同意"七七新闻用户<a id="Agreement" onclick="showdiv();" style="text-decoration:none;color:green">使用协议</a>"</label>
+						<span class="error_tip2">提示信息</span>
+					</li>
+					<li class="reg_sub">
+						<input type="submit" value="注 册" name="">
+					</li>
+				</ul>
+				</form>
+                <p style="font-size:18px;color:red">{{ errmsg }}</p>
+
+
+			</div>
+
+		</div>
+
+	</div>
+
+	<div class="footer no-mp">
+		<div class="foot_link">
+			<a href="#">关于我们</a>
+			<span>|</span>
+			<a href="#">联系我们</a>
+			<span>|</span>
+			<a href="#">友情链接</a>
+		</div>
+		<p>©2019七七新闻网 程鹏进</p>
+
+	</div>
+
+	<!--使用协议-->
+	<div id="bg"></div>
+	<div id="show" >
+		<pre>				七七新闻最终用户许可协议
+
+  重要提示 - 请认真阅读：本《七七新闻最终用户许可协议》（以下简称《协议》）是您（自然人、法人或其他组织）
+--------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------
+
+1. 知识产权：
+--------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------
+
+
+2. 许可：
+--------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------
+
+3. 测试版“软件”：
+--------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------
+
+
+4. 约束和限制：
+--------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------
+
+
+5. 不得用于非法或禁止的用途：
+--------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------
+
+
+6. 免责说明：
+--------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------
+
+
+7. 权利和所有权的保留：
+--------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------
+
+
+8.协议终止
+--------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------
+
+
+
+
+
+		</pre>
+		<input id="btnclose" type="button" value="Close" onclick="hidediv();"/>
+	</div>
+
+</body>
+</html>

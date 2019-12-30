@@ -1,0 +1,64 @@
+body{background: #fff;
+font-family:'Open Sans', Arial, Helvetica, Sans-serif, Verdana, Tahoma;}
+ul{list-style-type:none;}
+a{color: #e85b1e;
+    text-decoration:none;}
+/** =======================
+* Contenedor Principal
+===========================*/
+h1{color: #FFF;
+    font-size: 0.48rem;
+  font-weight: 400;
+  text-align: center;
+  margin-top: 1.6rem;}
+h1 a{color: #c12c42;
+  font-size: 0.32rem;}
+.accordion{width: 100%;
+    height: 100%;
+  max-width: 7.2rem;
+  -webkit-border-radius: 0.08rem;
+  -moz-border-radius: 0.08rem;
+  border-radius: 0.08rem;
+  margin-top: 0.96rem;}
+.accordion .link{cursor: pointer;
+    text-align: center;
+display: block;
+background: #fff;
+padding: 0.3rem;
+color: #4D4D4D;
+font-size: 0.28rem;
+font-weight: 700;
+border-bottom: 0.02rem solid #eee;
+position: relative;
+-webkit-transition: all 0.4s ease;
+-o-transition: all 0.4s ease;
+transition: all 0.4s ease;}
+.accordion li:last-child .link{border-bottom: 0;}
+.accordion li.open .link {color: #e85b1e;}
+/**
+ * Submenu
+ -----------------------------*/
+.submenu{
+display:none;
+  background: #f3f3f3;
+  font-size: 0.28rem;}
+.submenu li{
+border-bottom: 0.02rem solid #eee;}
+.submenu a{display: block;
+  text-decoration: none;
+  text-align: center;
+  color: #666;
+  padding: 0.24rem;
+  -webkit-transition: all 0.25s ease;
+  -o-transition: all 0.25s ease;
+  transition: all 0.25s ease;}
+.submenu a:hover{background: #fff;
+  color: #e85b1e;}
+.le_bl_big{width:30%;
+    height: 100%;
+    background: #f3f3f3;
+    float: left;} 
+.ri_bl_big{width: 70%;
+    height: 100%;
+    background: #f3f3f3;
+    float: right;}
